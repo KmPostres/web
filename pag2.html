@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title></title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Times New Roman', Times, serif;
+      background-color: #f7f7f7;
+      color: #4b2e83;
+      text-align: left;
+
+    }
+
+    header {
+
+      background-color: #db96df;
+      padding: 30px;
+      text-align: center;
+
+      color: rgb(60, 57, 57);
+      animation: fadeInDown 1s ease-out;
+    }
+
+    nav {
+      background-color: #f3e8ff;
+      padding: 10px;
+      text-align: center;
+      animation: fadeIn 1.5s ease-out;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #4b2e83;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #18161a;
+    }
+
+    section {
+      padding: 30px;
+      max-width: 800px;
+      margin: auto;
+      animation: fadeInUp 1s ease-out;
+    }
+
+    .destacado {
+      background-color: #f3e8ff;
+      padding: 15px;
+      border-radius: 10px;
+       max-width: 500px;
+      
+       margin: 20px 0;
+        width: fit-content;
+      transition: transform 0.3s ease;
+    }
+
+    .destacado:hover {
+      transform: scale(1.02);
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      background-color: #e9d5ff;
+      margin: 10px 0;
+      padding: 10px;
+      border-radius: 8px;
+       max-width: 400px;
+       text-align: left;
+      transition: background-color 0.3s ease;
+      
+    }
+
+    li:hover {
+      background-color: #d8b4fe;
+    }
+
+    footer {
+      background-color: #aa84c8;
+      color: rgb(42, 40, 40);
+      text-align: center;
+      padding: 25px;
+      font-size: 1.1rem;
+      font-weight: 600;
+      animation: fadeInUp 1.2s ease-out;
+    }
+
+    .btn-volver {
+      display: inline-block;
+      padding: 12px 28px;
+      background-color: #d8b4fe;
+      color: #4b2e83;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+      font-size: 1rem;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    .btn-volver:hover {
+      background-color: #b794f4;
+      transform: scale(1.05);
+    }
+
+    /* Animaciones */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
+
+    @keyframes fadeInDown {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <body>
+
+
+
+
+<header style="display: flex; align-items: center; justify-content: space-between;">
+  <div>
+    <h1>La Magia de Nuestros Postres</h1>
+    <p>Calidad, arte y emoción en cada bocado</p>
+  </div>
+  <img src="imagenes/logo.png" style="height: 80px;">
+</header>
+
+
+
+    <nav>
+      <a href="#calidad">Calidad</a>
+      <a href="#beneficios">Beneficios</a>
+      <a href="#ubicación">Ubicación</a>
+
+    </nav>
+
+    <section id="calidad">
+      <div class="destacado">
+        <h2>Compromiso con la calidad</h2>
+        <p>Usamos ingredientes premium, técnicas artesanales y una presentación que enamora a primera vista.</p>
+              <img src="imagenes/pastelfresa.png" style="width: 150px;">
+      
+
+      </div>
+      <ul>
+         <li> Ingredientes naturales y frescos</li>
+        <li> Diseño visual cuidado</li>
+        <li> Texturas suaves y sabores intensos</li>
+        
+      </ul>
+
+    </section>
+
+
+    </section>
+    <section id="beneficios">
+      <div class="destacado">
+        <h2>¿Por qué comer postres?</h2>
+        <p>Porque lo dulce también nutre el alma. Nuestros postres están pensados para crear momentos de conexión,
+          celebración y placer consciente.</p>
+           <img src="imagenes/minihotconlun.png" style="width: 150px;">
+      </div>
+    </section>
+    <section id="ubicación">
+      <iframe class="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30052.576343908204!2d-99.14266073940138!3d19.688255232476873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f493043976dd%3A0x98525264e3a44f70!2zVHVsdGVwZWMsIE3DqXgu!5e0!3m2!1ses-419!2smx!4v1761008845463!5m2!1ses-419!2smx"
+        width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+
+    <footer>
+      <p>© 2025 <strong>Postrería KM</strong> — Calidad que se saborea</p>
+      <br>
+      <a href="index.html" class="btn-volver">⬅ Volver a la página principal</a>
+    </footer>
+
+  </body>
+
+</html>

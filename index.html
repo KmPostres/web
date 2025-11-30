@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <img class="bg" src="" alt="">
+        <div class="menu container">
+            <a href="#" class="logo">KM Postres</a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="imagenes/menu.png" class="menu-icono" alt="">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#Inic" class="selected">Inicio</a></li>
+                    <li><a href="#Servi">Servicios</a></li>
+                    <li><a href="#Product">Productos</a></li>
+                    <li><a href="#Contac">Contacto</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="imagenes/car.svg" id="img-carrito" alt="carrito">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Producto</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-3">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header-content container" id="Inic">
+
+            <div class="header-txt">
+                <h1><span>Bienvenido</span> disfruta de nuestros postres</h1>
+                <p>
+                    Donde cada dulce momento se convierte en un recuerdo inolvidable.
+                    Endulza tu día con nuestros postres hechos con amor y dedicación
+                </p>
+                <a href="pag2.html" class="btn-1">Informacion</a>
+            </div>
+            <div class="header-img">
+                <img src="imagenes/fresas.png" alt="">
+            </div>
+        </div>
+
+
+    </header>
+    </header>
+    <section class="breakfast container" id="#Servi">
+        <h2>Postres</h2>
+        <p>Horarios: Lunes a Sábado de 4:00 PM a 8:00 PM</p>
+
+        <div class="breakfast-content">
+            <div class="breakfast-1">
+                <img src="imagenes/minihotconlun.png" alt="">
+                <h3> Mini Hot Cakes con Lechera y Lunetas</h3>
+            </div>
+
+            <div class="breakfast-1">
+                <img src="imagenes/brocheta.png" alt="">
+                <h3>Brocheta de Mini Hot Cakes</h3>
+            </div>
+
+            <div class="breakfast-1">
+                <img src="imagenes/pastelfresa.png" alt="">
+                <h3> Pastel de Fresa</h3>
+            </div>
+
+            <div class="breakfast-1">
+                <img src="imagenes/flan1.png" alt="">
+                <h3>Flan de Chocolate</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="info" id="Servi">
+        <img class="bg-2" src="imagenes/bg-2.png" alt="">
+        <div class="info-content container">
+            <div class="info-img">
+                <img src="imagenes/pastelfresa.png" alt="">
+            </div>
+            <div class="info-text">
+                <h2>La mejor calidad en los productos</h2>
+                <p>
+                    Inspirados en los más altos estándares de calidad,
+                    nuestros productos combinan ingredientes premium,
+                    presentaciones elegantes y sabores auténticos.
+                    Elaborados con ingredientes selectos.
+
+                </p>
+                <a href="pag2.html" class="btn-1">Informacion</a>
+            </div>
+        </div>
+    </section>
+    <!--SECCION DE PRODUCTPOS-->
+    <main class="products container" id="Product">
+        <h2>Productos</h2>
+
+        <div class="box-container" id="lista-1">
+            <div class="box">
+                <img src="imagenes/minihotconlun.png" alt="">
+                <div class="product-txt">
+                    <h3>Mini Hot Cakes con Lechera y Lunetas</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$50</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="1">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="imagenes/fresas.png" alt="">
+                <div class="product-txt">
+                    <h3>🍓 Fresas con Crema</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$50</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="2">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="imagenes/brocheta.png" alt="">
+                <div class="product-txt">
+                    <h3> 🍢Brocheta de Mini Hot Cakes</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$50</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="3">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="imagenes/pastelfresa.png" alt="">
+                <div class="product-txt">
+                    <h3>🍓 Pastel de Fresa</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$350</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="4">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="imagenes/flan1.png" alt="">
+                <div class="product-txt">
+                    <h3>Flan</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="imagenes/personalizado.png" alt="">
+                <div class="product-txt">
+                    <h3>Pastel Personalizado</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$360</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="imagenes/pastelchocolate.png" alt="">
+                <div class="product-txt">
+                    <h3> 🎂 Pastel De Chocolate</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$350</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="7">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="imagenes/rebanada.png" alt="">
+                <div class="product-txt">
+                    <h3>Revanada De Pastel</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$45</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="8">Agregar al carrito</a>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="btn-2" id="load-more">Cargar Mas</div>
+    </main>
+
+    <!--SECCION DE APP-->
+    <section class="app container" id="Contac">
+        <div class="app-txt">
+            <h2>Visita nuestras redes sociales y descubre ofertas</h2>
+            <p>
+                En nuestras redes descubrirás el lado más delicioso del diseño:
+                postres de calidad premium, presentaciones irresistibles,
+                detrás de cámaras de nuestras creaciones, promociones exclusivas y mucho más.
+            </p>
+            <div class="descarga">
+                <a href="https://www.instagram.com/postr_eskm?igsh=MTVyeW4xb2o4ODdmOA%3D%3D">
+                    <div class="social">
+                        <img src="imagenes/insta.png" alt="">
+
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="app-img">
+            <img src="imagenes/cel.jpg" alt="">
+        </div>
+    </section>
+    <!--FOOTER-->
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="link">
+                <h3>Horario</h3>
+                <ul>
+                    <li><a href="#">Lunes a Viernes de 4pm a 8pm</a></li>
+                    <li><a href="#">Exhibición Martes a Viernes de 4pm a 8pm</a></li>
+
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>Teléfono</h3>
+                <ul>
+                    <li><a href="#">5529044023
+
+                        </a></li>
+                    <li><a href="#">5529044023
+
+                        </a></li>
+
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>Contáctanos
+                </h3>
+                <ul>
+                    <li><a href="#">© 2025 Postrería KM
+                        </a></li>
+
+
+                    </a></li>
+
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>Redes</h3>
+
+
+                <div class="Socials">
+
+                    <a href="https://www.instagram.com/postr_eskm?igsh=MTVyeW4xb2o4ODdmOA%3D%3D">
+                        <div class="social">
+                            <img src="imagenes/insta.png" alt="">
+
+                        </div>
+                    </a>
+
+                </div>
+
+                
+                <!--FOOTER--<div class="descarga">
+                    <img src="imagenes/store1.png" alt="">
+                    <img src="imagenes/store2.png" alt="">
+                </div>-->
+            </div>
+              <div class="link">
+                <h3>Dirección</h3>
+                <section id="ubicación">
+                    <iframe class="map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30052.576343908204!2d-99.14266073940138!3d19.688255232476873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f493043976dd%3A0x98525264e3a44f70!2zVHVsdGVwZWMsIE3DqXgu!5e0!3m2!1ses-419!2smx!4v1761008845463!5m2!1ses-419!2smx"
+                        width="100%" height="260" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </section>
+            </div>
+
+
+
+
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
